@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+         <title> 
+            Cameron's Webpage
+         </title>
+    </head>
+    
+    <body> 
+<div id="about">
+        <h1> About Me </h1>
+        <p> 
+            Hi my name is Cameron and I'm a Computer Science Major in my 3rd year
+        </p>
+        </div>
+        <p> <img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png?ex=697bed3b&is=697a9bbb&hm=cfdcc41f76c13594ea1652a41597e5b7f82aa8ea18221d03761579f043387b35&" width="50%"> </p>
+<div id="education">
+        <h2> Education </h2>
+<p> So far I'm currently pursuing my Bachelor's Degree. The only physical degree/diploma I currently have is of course my highschool diploma which I got back in 2023.Hoping everything goes as planned though I'll have my Bachelor's in Computer Science by 2027. </p>
+</div>
+<div id="experience">
+<h3> Work/Project Experience </h3>
+<li> Laboratory Testing Services </li>
+<li> Networking Projects </li>
+<h3> Programming Skills </h3>
+<li> Intermediate Java </li>
+<li> Beginner Python </li>
+<li> Beginner HTML </li>
+</div>
+<div id="interests">
+<h4> Interests </h4>
+<li> Basketball</li>
+<li> Building and repairing computers </li>
+<li> Cars (Fixing and modifying) </li>
+<li> Traveling to places I've never been or anywhere nice </li>
+</div>
+<div id="favorites">
+<h5> Favorite Movie, Tv Show, and Song </h5>
+<ul>
+    <li>
+        <a href="https://www.youtube.com/watch?v=dJszUl1EI4A" target="_blank" rel="noopener noreferrer">
+            Transformers
+        </a>
+    </li>
+</ul>
 
+
+<ul>
+    <li>
+        <a href="https://www.youtube.com/watch?v=SWTtOlXQf_0" target="_blank" rel="noopener noreferrer">
+            The Walking Dead
+        </a>
+    </li>
+</ul>
+<ul>
+    <li>
+        <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank" rel="noopener noreferrer">
+            Last Christmas
+        </a>
+    </li>
+</ul>
+</div>
+<div id="favorite-websites">
+<h6>Favorite Websites </h6>
+<ul>
+    <li>
+      <a href="https://www.chess.com" target="_blank" rel="noopener noreferrer">
+        Chess.com
+      </a>
+      <p>The website is self explanatory but it's a website where you can rather play against bots or online versus other chess players.</p>
+    </li>
+
+    <li>
+      <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">
+        Amazon
+      </a>
+      <p> Can get whatever you want with insane convenience  </p>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        YouTube
+      </a>
+      <p>Can watch unlimited content at will.</p>
+    </li>
+  </ul>
+</div>
+
+<div id="menu">
+  <h1>Menu</h1>
+
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#favorites">Favorites</a></li>
+    <li><a href="#favorite websites">Favorite Websites</a></li>
+    <li><a href="#projects">My Projects</a></li>
+  </ul>
+  </div>
+<div id="projects">
+  <h1>My Projects in This Course</h1>
+
+  <ul>
+    <li>
+      <a href="#menu">Project 1: Personal Profile Webpage</a>
+      <p>
+        This project is a personal webpage that was created using HTML. It includes personal information, skills, interests,
+        and external links.
+      </p>
+    </li>
+  </ul>
+</div>
+
+
+    </body>
+</html>
