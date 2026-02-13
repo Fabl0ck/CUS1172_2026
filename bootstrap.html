@@ -1,72 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cameron Profile Bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron's Bootstrap Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mycss_web.css">
-    <link rel="stylesheet" href="css/mycss_tablet.css">
+    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 768px)">
+    <style>
+        /* Small internal adjustment to fix the div conflict in your external CSS */
+        .card { margin-bottom: 20px !important; }
+        body { background-color: #f4f4f4; }
+    </style>
 </head>
 
 <body>
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <span class="navbar-brand">Cameron's Profile</span>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cameron's Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="container mt-4">
-<div class="row">
-<div class="col-md-4">
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png" class="card-img-top">
-<div class="card-body">
-<h5 class="card-title">About Me</h5>
-<p>Hi my name is Cameron and I'm a Computer Science major in my 3rd year.</p>
-</div>
-</div>
+    <div class="container mt-5">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div id="about" class="card shadow">
+                    <img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png" class="card-img-top" alt="Profile Image">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">Hi, my name is Cameron and I'm a Computer Science Major in my 3rd year.</p>
+                        <hr>
+                        <h6>Interests</h6>
+                        <ul class="ps-3">
+                            <li>Basketball</li>
+                            <li>Building/Repairing Computers</li>
+                            <li>Modifying Cars</li>
+                            <li>Traveling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <div class="col-md-8">
+                
+                <section id="education" class="mb-5 p-4 bg-white rounded shadow-sm">
+                    <h2 class="text-primary">Education</h2>
+                    <p>I am currently pursuing my Bachelor's Degree in Computer Science.</p>
+                    <table class="table table-hover mt-3">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Level/Degree</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>High School Diploma</td>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <td>Bachelor of Science (CS)</td>
+                                <td>2027 (Expected)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
 
-<div class="col-md-8">
-   
+                <section id="experience" class="mb-5 p-4 bg-white rounded shadow-sm">
+                    <h2 class="text-primary">Programming Skills</h2>
+                    <ul class="list-group mt-3">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Java
+                            <span class="badge bg-primary rounded-pill">Intermediate</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Python
+                            <span class="badge bg-secondary rounded-pill">Beginner</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            HTML/CSS
+                            <span class="badge bg-info rounded-pill text-dark">Beginner</span>
+                        </li>
+                    </ul>
+                </section>
 
-<h2>Education</h2>
+                <section id="favorites" class="mb-5 p-4 bg-white rounded shadow-sm">
+                    <h2 class="text-primary">Favorites</h2>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h6>Movies & Media</h6>
+                            <div class="list-group mb-3">
+                                <a href="https://www.youtube.com/watch?v=dJszUl1EI4A" target="_blank" class="list-group-item list-group-item-action">Transformers</a>
+                                <a href="https://www.youtube.com/watch?v=SWTtOlXQf_0" target="_blank" class="list-group-item list-group-item-action">The Walking Dead</a>
+                                <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank" class="list-group-item list-group-item-action">Last Christmas</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>Favorite Websites</h6>
+                            <div class="list-group">
+                                <a href="https://www.chess.com" target="_blank" class="list-group-item list-group-item-action">Chess.com</a>
+                                <a href="https://www.amazon.com" target="_blank" class="list-group-item list-group-item-action">Amazon</a>
+                                <a href="https://www.youtube.com" target="_blank" class="list-group-item list-group-item-action">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-<table class="table table-striped">
-<tr>
-<th>Level</th>
-<th>Year</th>
-</tr>
-<tr>
-<td>High School Diploma</td>
-<td>2023</td>
-</tr>
-<tr>
-<td>Bachelor's (In Computer Science)</td>
-<td>2027</td>
-</tr>
-</table>
+                <section id="projects" class="mb-5 p-4 bg-white rounded shadow-sm">
+                    <h2 class="text-primary">My Projects in This Course</h2>
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Project 1: Personal Profile Webpage</h5>
+                            <p class="card-text">This project is a personal webpage created using HTML and Bootstrap. It includes personal information, skills, and external links.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </section>
 
-<h2>Programming Skills</h2>
-
-<ul class="list-group">
-<li class="list-group-item">Intermediate Java</li>
-<li class="list-group-item">Beginner Python</li>
-<li class="list-group-item">Beginner HTML</li>
-</ul>
-
-<br>
-
-<h2>Interests</h2>
-
-<p>Basketball, building computers, cars, and traveling.</p>
-
-<button class="btn btn-primary">Contact Me</button>
-
-</div>
-
-</div>
-</div>
-
+            </div> </div> </div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
