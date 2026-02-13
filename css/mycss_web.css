@@ -34,3 +34,24 @@ a:hover {
 img {
     border: 3px solid black;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #ddd;
+}
+
+form input, form textarea {
+    width: 60%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
