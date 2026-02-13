@@ -1,58 +1,170 @@
+
 <!DOCTYPE html>
-<html> 
-    <head> 
-         <title> 
-            Cameron's Webpage
-         </title>
-        <link rel="stylesheet" href="css/mycss_web.css">
-        <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 768px)">
-    </head>
-    
-    <body> 
-        <div id="about">
-            <h1> About Me </h1>
-            <p> 
-                Hi my name is Cameron and I'm a Computer Science Major in my 3rd year
+<html>
+<head>
+    <title>Cameron's Webpage</title>
+
+    <link rel="stylesheet" href="css/mycss_web.css">
+    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 768px)">
+
+    <style>
+        span.highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="menu">
+    <h1 style="text-align:center;">Menu</h1>
+
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#favorite-websites">Favorite Websites</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</div>
+
+<div id="about">
+    <h1>About Me</h1>
+    <p>
+        Hi my name is <span class="highlight">Cameron</span> and I'm a Computer Science Major in my 3rd year.
+    </p>
+
+    <img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png"
+         width="50%">
+</div>
+
+<div id="education">
+    <h2>Education</h2>
+
+    <p>
+        I'm currently pursuing my Bachelor's Degree in Computer Science.
+        I earned my high school diploma in 2023 and expect to graduate in 2027.
+    </p>
+
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>High School Diploma</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>Bachelor's in Computer Science</td>
+            <td>2027</td>
+        </tr>
+    </table>
+</div>
+
+<div id="experience">
+    <h3>Work/Project Experience</h3>
+    <ul>
+        <li>Laboratory Testing Services</li>
+        <li>Networking Projects</li>
+    </ul>
+
+    <h3>Programming Skills</h3>
+    <ul>
+        <li>Intermediate Java</li>
+        <li>Beginner Python</li>
+        <li>Beginner HTML</li>
+    </ul>
+</div>
+
+<div id="interests">
+    <h4>Interests</h4>
+    <ul>
+        <li>Basketball</li>
+        <li>Building and repairing computers</li>
+        <li>Cars (fixing and modifying)</li>
+        <li>Traveling</li>
+    </ul>
+</div>
+
+<div id="favorites">
+    <h5>Favorite Movie, TV Show, and Song</h5>
+
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/watch?v=dJszUl1EI4A" target="_blank">
+                Transformers
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=SWTtOlXQf_0" target="_blank">
+                The Walking Dead
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank">
+                Last Christmas
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="favorite-websites">
+    <h6>Favorite Websites</h6>
+
+    <ul>
+        <li>
+            <a href="https://www.chess.com" target="_blank">Chess.com</a>
+            <p>Play chess online against bots or other players.</p>
+        </li>
+
+        <li>
+            <a href="https://www.amazon.com" target="_blank">Amazon</a>
+            <p>Shop online with convenience.</p>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <p>Watch unlimited video content.</p>
+        </li>
+    </ul>
+</div>
+
+<div id="projects">
+    <h1>My Projects in This Course</h1>
+
+    <ul>
+        <li>
+            <strong>Project 1:</strong> Personal Profile Webpage
+            <p>
+                This project uses HTML and CSS to create a personal profile page.
             </p>
-        </div>
-        <p> 
-            <img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png?ex=697bed3b&is=697a9bbb&hm=cfdcc41f76c13594ea1652a41597e5b7f82aa8ea18221d03761579f043387b35&" width="50%"> 
-        </p>
+        </li>
+    </ul>
+</div>
 
-        <div id="education">
-            <h2> Education </h2>
-            <p> So far I'm currently pursuing my Bachelor's Degree. The only physical degree/diploma I currently have is of course my highschool diploma which I got back in 2023. Hoping everything goes as planned though I'll have my Bachelor's in Computer Science by 2027. </p>
-        </div>
+<div id="contact">
+    <h2>Contact Me</h2>
 
-        <div id="experience">
-            <h3> Work/Project Experience </h3>
-            <li> Laboratory Testing Services </li>
-            <li> Networking Projects </li>
-            <h3> Programming Skills </h3>
-            <li> Intermediate Java </li>
-            <li> Beginner Python </li>
-            <li> Beginner HTML </li>
-        </div>
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
 
-        <div id="interests">
-            <h4> Interests </h4>
-            <li> Basketball</li>
-            <li> Building and repairing computers </li>
-            <li> Cars (Fixing and modifying) </li>
-            <li> Traveling to places I've never been or anywhere nice </li>
-        </div>
+        Email:<br>
+        <input type="email"><br><br>
 
-        <div id="favorites">
-            <h5> Favorite Movie, Tv Show, and Song </h5>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=dJszUl1EI4A" target="_blank" rel="noopener noreferrer">Transformers</a></li>
-                <li><a href="https://www.youtube.com/watch?v=SWTtOlXQf_0" target="_blank" rel="noopener noreferrer">The Walking Dead</a></li>
-                <li><a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank" rel="noopener noreferrer">Last Christmas</a></li>
-            </ul>
-        </div>
+        Message:<br>
+        <textarea rows="4"></textarea><br><br>
 
-        <div id="favorite websites">
-            <h6>Favorite Websites </h6>
-            <ul>
-                <li>
-                  <a href="https://www.chess.com" target="_blank"
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+</body>
+</html>
+```
+
