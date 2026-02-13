@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cameron Profile Bootstrap</title>
+    <title>Cameron Profile - Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your CSS from milestone 2 -->
     <link rel="stylesheet" href="css/mycss_web.css">
     <link rel="stylesheet" href="css/mycss_tablet.css">
 </head>
 
 <body>
+
+<!-- Bootstrap Navbar (Bootstrap element #1) -->
 <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
     <span class="navbar-brand">Cameron's Profile</span>
@@ -15,25 +21,67 @@
 </nav>
 
 <div class="container mt-4">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png" class="card-img-top" alt="Profile">
-                <div class="card-body">
-                    <h5 class="card-title">About Me</h5>
-                    <p>Hi my name is Cameron and I'm a Computer Science major in my 3rd year.</p>
-                </div>
-            </div>
 
-            <div class="card mt-3 shadow-sm p-3">
-                <h4>Interests</h4>
-                <ul>
-                    <li>Basketball</li>
-                    <li>Building and repairing computers</li>
-                    <li>Cars (Fixing and modifying)</li>
-                    <li>Traveling</li>
-                </ul>
-            </div>
-        </div>
+<!-- Bootstrap Grid Layout -->
+<div class="row">
 
-        <div class="col-md-8">
+<!-- LEFT COLUMN -->
+<div class="col-md-4">
+
+<!-- Card (Bootstrap element #2) -->
+<div class="card">
+<img src="https://cdn.discordapp.com/attachments/719773980247982101/1466213501193162988/IMG_1232.png" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">About Me</h5>
+<p>Hi my name is Cameron and I'm a Computer Science major in my 3rd year.</p>
+</div>
+</div>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+<div class="col-md-8">
+
+<h2>Education</h2>
+
+<!-- Bootstrap Table (Bootstrap element #3) -->
+<table class="table table-striped">
+<tr>
+<th>Level</th>
+<th>Year</th>
+</tr>
+<tr>
+<td>High School Diploma</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Bachelor's (Computer Science)</td>
+<td>2027</td>
+</tr>
+</table>
+
+<h2>Programming Skills</h2>
+
+<!-- Bootstrap List Group (Bootstrap element #4) -->
+<ul class="list-group">
+<li class="list-group-item">Intermediate Java</li>
+<li class="list-group-item">Beginner Python</li>
+<li class="list-group-item">Beginner HTML</li>
+</ul>
+
+<br>
+
+<h2>Interests</h2>
+
+<p>Basketball, building computers, cars, and traveling.</p>
+
+<!-- Bootstrap Button (Bootstrap element #5) -->
+<button class="btn btn-primary">Contact Me</button>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
