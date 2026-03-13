@@ -1,6 +1,13 @@
 body {
-    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .list-group-item {
-    transition: all 0.2s;
+    background-color: #ffffff;
+    border-left: 5px solid #0d6efd; /* Blue accent */
+}
+
+/* Optional: style for different priorities */
+.badge {
+    text-transform: capitalize;
 }
