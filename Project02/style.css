@@ -4,10 +4,9 @@ body {
 
 .list-group-item {
     background-color: #ffffff;
-    border-left: 5px solid #0d6efd; /* Blue accent */
+    border-left: 5px solid #0d6efd; /* Blue */
 }
 
-/* Optional: style for different priorities */
 .badge {
     text-transform: capitalize;
 }
