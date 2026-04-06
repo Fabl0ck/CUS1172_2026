@@ -1,18 +1,18 @@
 {
   "burgers": [
-    { "id": "classic-beef", "title": "Classic Beef Burger" },
-    { "id": "grilled-chicken", "title": "Grilled Chicken Burger" }
+    { "id": "classic beef", "title": "Classic Beef Burger" },
+    { "id": "grilled chicken", "title": "Grilled Chicken Burger" }
   ],
   "steps": [
-    { "id": 1, "burgerId": "classic-beef", "type": "multiple-choice", "instruction": "Choose your bun", "options": ["Sesame", "Brioche", "Lettuce Wrap"] },
-    { "id": 2, "burgerId": "classic-beef", "type": "multiple-choice", "instruction": "Choose your protein", "options": ["Single Beef", "Double Beef", "Plant-based"] },
-    { "id": 3, "burgerId": "classic-beef", "type": "multiple-choice", "instruction": "Add toppings", "options": ["Lettuce & Tomato", "Pickles & Onions", "Everything"] },
-    { "id": 4, "burgerId": "classic-beef", "type": "text", "instruction": "How many pumps of secret sauce? (Enter a number)", "feedbackCondition": 3, "feedbackMessage": "That is too much sauce! It will ruin the structural integrity of the bun." },
-    { "id": 5, "burgerId": "classic-beef", "type": "image-selection", "instruction": "Choose presentation", "options": ["Dine-in Basket", "To-Go Bag"] },
-    { "id": 6, "burgerId": "grilled-chicken", "type": "multiple-choice", "instruction": "Choose your bun", "options": ["Whole Wheat", "Brioche", "Lettuce Wrap"] },
-    { "id": 7, "burgerId": "grilled-chicken", "type": "multiple-choice", "instruction": "Choose your style", "options": ["Spicy", "Mild", "BBQ"] },
-    { "id": 8, "burgerId": "grilled-chicken", "type": "multiple-choice", "instruction": "Add cheese", "options": ["Swiss", "Cheddar", "None"] },
-    { "id": 9, "burgerId": "grilled-chicken", "type": "text", "instruction": "How many packets of mayo? (Enter a number)", "feedbackCondition": 3, "feedbackMessage": "Whoa, that's a lot of mayo! Are you sure?" },
-    { "id": 10, "burgerId": "grilled-chicken", "type": "image-selection", "instruction": "Choose presentation", "options": ["Dine-in Basket", "To-Go Bag"] }
+    { "id": 1, "burgerId": "classic beef", "type": "multiple-choice", "instruction": "Choose your bun", "options": ["Sesame", "Brioche", "Lettuce Wrap"] },
+    { "id": 2, "burgerId": "classic beef", "type": "multiple-choice", "instruction": "Choose your protein", "options": ["Single Beef", "Double Beef", "Plant based"] },
+    { "id": 3, "burgerId": "classic beef", "type": "multiple-choice", "instruction": "Add toppings", "options": ["Lettuce & Tomato", "Pickles & Onions", "Everything"] },
+    { "id": 4, "burgerId": "classic beef", "type": "text", "instruction": "How many pumps of secret sauce? (Enter a number)", "feedbackCondition": 3, "feedbackMessage": "That is way too much sauce bro. It will ruin the bun." },
+    { "id": 5, "burgerId": "classic beef", "type": "image-selection", "instruction": "Choose presentation", "options": ["Dine in Basket", "To Go Bag"] },
+    { "id": 6, "burgerId": "grilled chicken", "type": "multiple-choice", "instruction": "Choose your bun", "options": ["Whole Wheat", "Brioche", "Lettuce Wrap"] },
+    { "id": 7, "burgerId": "grilled chicken", "type": "multiple-choice", "instruction": "Choose your style", "options": ["Spicy", "Mild", "BBQ"] },
+    { "id": 8, "burgerId": "grilled chicken", "type": "multiple-choice", "instruction": "Add cheese", "options": ["Swiss", "Cheddar", "None"] },
+    { "id": 9, "burgerId": "grilled chicken", "type": "text", "instruction": "How many packets of mayo? (Enter a number)", "feedbackCondition": 3, "feedbackMessage": "Whoa chill, that's a bunch of mayo! Are you sure?" },
+    { "id": 10, "burgerId": "grilled chicken", "type": "image-selection", "instruction": "Choose presentation", "options": ["Dine-in Basket", "To Go Bag"] }
   ]
 }
